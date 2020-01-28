@@ -24,7 +24,7 @@ io.on('connection', (socket) => {
 	});
 
 	socket.on('sendLocation', ({ latitude, longitude }) => {
-		io.emit('message', `Location: ${latitude}, ${longitude}`);
+		io.emit('message', `https://google.com/maps?q=${latitude},${longitude}`);
 	});
 
 	socket.on('disconnect', () => {
