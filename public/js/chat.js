@@ -95,7 +95,6 @@ sendLocationButton.addEventListener('click', () => {
 			},
 			() => {
 				sendLocationButton.removeAttribute('disabled');
-				console.log('Location shared!');
 			}
 		);
 	});
