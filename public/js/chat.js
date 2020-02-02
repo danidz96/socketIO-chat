@@ -48,7 +48,6 @@ document.querySelector('#message-form').addEventListener('submit', (e) => {
 		if (error) {
 			return console.log(error);
 		}
-		console.log('Message delivered!');
 	});
 });
 
